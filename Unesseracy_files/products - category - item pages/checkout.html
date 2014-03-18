@@ -1,0 +1,143 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Kamazon Bookstore</title>
+<link rel="stylesheet" type="text/css" href="page.css" />
+<link rel="stylesheet" type="text/css" href="form.css" />
+
+
+</head>
+
+<body>
+<div id="wrapper">
+    <div id="headerWrapper">
+        <div id="header">
+            <div id="logo">
+            	<a href="main.php"><img src="images/small-logo.png" class="logo" /></a>
+            </div><!-- endLogo -->
+            
+            <div id="navbar">
+                 <ul>
+                    <li><a href="signIn.hmtl">Sign in</a></li>
+                    <li><a href="register.php" class="nav">Register</a></li>
+                    <li><a href="products.php" class="nav">Books</a></li>
+                    <li><a href="checkout.php" class="nav">Check out</a></li>
+                 </ul>
+            </div><!-- endNavbar -->
+            
+            <div id="cart">
+            	<a href="#" class="cart"><span><img src="images/cart.png" /></span> 0 item(s)</a>      
+            </div><!-- endCart --> 
+        </div> <!-- endHeader -->
+    </div><!-- endHeaderWrapper -->
+    
+    <div id="bodyWrapper">
+        <div id="body">
+        
+        	<div id="welcome">
+            	<img src="images/thankyou.png" />
+            </div>
+            
+            <div id="mainWrapper">
+            <span><img src="images/pageblock-header.png" /></span>
+            <div id="main">
+                
+                <div id="contentCheckout">
+                	<div class="checkout">
+                    <h2 >Shopping Cart</h2>
+<table id="lineItems">
+	<thead>
+    	<tr class="cartItemsHeader">
+        	<th class="itemNameHeader"> Book </th>
+            <th class="itemCodeHeader" > Code</th>
+            <th class="itemQuantityHeader"> Quantity</th>
+            <th class="itemPriceHeader"> Price </th>
+            <th class="itemInfoHeader"> Info</th>
+            <th class="itemSubtotalHeader"> Total </th>
+            <th class="itemRemoveHeader"> Edit </th>
+        </tr>
+    </thead>
+    <tbody>
+    	<tr>
+        	<td class="itemName"> 
+            	<a href="book1.html" title="Database Arcitecture"><img src="images/2.jpg"/></a>
+                <br/><br/><strong>PS I love you</strong>
+                
+            </td>
+            <td class="itemCode"> 11</td>
+            <td class="itemQuantity"> 1</td>
+            <td class="itemPrice"> 74 &euro;</td>
+            <td class="itemInfo"> Romantic book </td>
+            <td class="itemSubtotal"> 74 &euro;</td>
+            <td class="itemRemove"> <a  href="#" title="Remove item" >Remove</a></td>
+        </tr>
+        
+        <tr>
+        	<td class="itemName"> 
+            	<a href="book1.html" title="Heartless"><img src="images/5.jpg"/></a>
+                <br/><br/><strong>Heartless</strong>
+                
+            </td>
+            <td class="itemCode"> 11</td>
+            <td class="itemQuantity"> 2</td>
+            <td class="itemPrice"> 45 &euro;</td>
+            <td class="itemInfo"> Novel</td>
+            <td class="itemSubtotal"> 80 &euro;</td>
+            <td class="itemRemove"> <a  href="#" title="Remove item" >Remove</a></td>
+        </tr>
+        
+        <tr>
+        	<td class="itemName"> 
+            	<a href="book1.html" title="Database Arcitecture"><img src="images/3.jpg"/></a>
+                <br/><br/><strong>Delicious Kitchen</strong>
+                
+            </td>
+            <td class="itemCode"> 15</td>
+            <td class="itemQuantity"> 3</td>
+            <td class="itemPrice"> 23 &euro;</td>
+            <td class="itemInfo"> Cooking </td>
+            <td class="itemSubtotal"> 74 &euro;</td>
+            <td class="itemRemove"> <a href="#" title="Remove item" >Remove</a></td>
+        </tr>
+        <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td><p> TOTAL </p></td>
+        <td> 100 &euro;</td>
+        <td class="itemRemove"> <a href="#" title="Remove item" >Empty Cart</a></td>
+        </tr>
+        
+        
+    </tbody>
+</table>
+
+
+
+                    </div><!--endCheckout-->
+					<div id="confirm">
+<p>Your order will be processed immediatley upon PayPal approval. At that time, an email confirmation will be sent to the email address you provided. Should you have any questions, please contact us at support@kamazon.com. Thank you! </p>
+<a id="cartBtn" class="checkout" href="#" title="Add to Cart" >Confirm Order</a>
+</div>
+                    
+                    
+
+                </div><!--endContentCheckout-->
+                </div><!--endMain-->
+                <span><img src="images/pageblock-footer.png" /></span>
+                
+            </div><!--endMainWrapper-->
+        </div><!-- endBody -->
+    </div><!-- endBodyWrapper -->
+    
+    <div id="footerWrapper">
+        <div id="footer">
+        	<p>&copy; 2011 Kamazon Online Bookstore</p>
+        </div><!-- endFooter -->
+    </div><!-- endFooterWrapper -->
+
+</div><!-- endWrapper -->
+</body>
+</html>

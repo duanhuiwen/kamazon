@@ -1,0 +1,266 @@
+@charset "utf-8";
+/* CSS Document */
+
+html { 
+margin: 0;
+padding: 0}
+
+body {
+margin: 0;
+padding: 0}
+
+a {
+	text-decoration: none;
+	color:#036}
+	
+a:hover {
+	color:#39F}
+
+wrapper {
+	width: 1344px;
+	height: auto}
+	
+/*------------------------------------*/
+h2 {
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 17px;
+	font-style:inherit;
+	padding-left: 10px;
+	text-shadow: 0 1px 0 #EEE;
+	color:#333}
+	
+	
+#footer p {
+	margin: 10px auto;
+	color:#333}
+/*------------------------------------*/
+	
+#headerWrapper{
+	margin: 0;
+	padding: 0;
+	background:url(images/small-nav.png) repeat-x;
+	background-position:top;}
+
+	
+				#header{
+					width: 960px;
+					height:75px;
+					margin: 0 auto;
+					}
+					
+				#logo {
+					padding-top: 25px;
+					width:200px;
+					float:left;
+					margin-left: 20px;
+					}
+					
+				#navbar {
+					width: 500px;
+					text-decoration: none;
+					float:left;
+					margin-left: 120px;
+					padding-top: 10px}
+					
+					#navbar li { 
+						font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+						font-size: 17px;
+						list-style: none;
+						float: left;
+						margin-right: 50px;
+						
+						}
+				
+				#cart {
+					font-size: 17px;
+					padding-top: 15px;
+					float:left;
+					width:100px;
+					margin: 0 10px;
+					text-align:right}
+					
+
+#bodyWrapper {
+	background-image:url(images/bg.png);
+	background-repeat:repeat;
+	clear: both;
+}
+	
+				#body {
+					float: none;
+					margin: -3px auto 0 auto;
+					width: 980px;
+					padding-bottom: 80px;
+				}
+					#welcome {
+						text-align: center;
+						padding-top:  45px;
+						padding-bottom: 40px;
+					}
+					
+					#main {
+						margin: -16px auto;
+						background:url(images/pageblock-body.png) repeat-y;
+						overflow:hidden;
+						}
+						
+						#sidebar {
+							width: 250px;
+							float: left;
+							margin-left: 20px;
+							background:url(images/sidebar-bg.png) no-repeat;
+							margin-top: 15px}
+							
+							#sidebar ul{
+								font-size:14px;
+								list-style: none;
+								line-height:40px;
+								font-family:Arial, Helvetica, sans-serif;
+								color: #535353;}
+						
+						#content {
+							width: 660px;
+							float:left;}
+						
+							#breadcrumb {
+								clear: both; 
+								font-family:Arial, Helvetica, sans-serif;
+								font-size: 13px;
+								margin-top: 20px;
+								margin-bottom: 15px;
+								font-weight:bold;
+								color: #4a4949}
+								
+								#singleItem {clear:both; overflow: hidden; width: 600px}
+							
+							#singleItem ul{list-style: none; clear: both}
+							
+							#singleItem li {
+								overflow: hidden;
+								padding-top: 15px;
+								padding-bottom: 40px;
+								border-bottom: solid 1px #CCC}
+								
+							#medium.image {float: left}
+							#small.image {
+								float:left}
+								
+								#big.image {
+									width: 300px;
+									float: left;}
+									
+									.image img {
+										padding:5px;
+										border: 1px solid #CDCCC7;
+										box-shadow: 0px 2px 3px rgba(0,0,0,.2);}
+										
+										/*------------------------------------------------------*/
+										
+											#newBooks{
+						overflow:hidden;
+						background-color:#FFF;
+					border-radius: 5px;
+					box-shadow: 0px 1px 1px rgba(0,0,0,.2);}
+										
+										ul.newBookCol {
+									width: 170px;
+									float: left;
+									padding-right: 25px;
+									margin-left: -15px;
+									}
+									
+									ul.newBookCol li {
+										list-style:none;
+										text-align: center;
+										margin-bottom: 20px;}
+									
+									ul.newBookCol img {
+										padding: 10px;
+										border: 1px solid #CDCCC7;
+										box-shadow: 0px 2px 3px rgba(0,0,0,.2);}
+										
+									ul.newBookCol h3,a {
+										letter-spacing: 0.5px;
+										font-size: 13px;
+										text-decoration: none;
+										font-family: Arial, Helvetica, sans-serif;}
+										
+										
+									.author {
+										font-style:italic}
+										
+									.priceLabel {
+										color:#36C;
+										font-weight:bold;
+										font-size: 14px;}
+										
+										/*------------------------------------------------------*/
+								
+								#intro-text {
+									margin: 0 20px 0 50px;
+									float:left}
+									
+									h4 {
+										font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+										font-size: 30px;
+										color: #2a2a2a}
+										
+										#intro-text p {
+											font-family:Arial, Helvetica, sans-serif;
+											font-size:13px;
+											color: #535353;}
+											
+											h5 {
+												font-family:Arial, Helvetica, sans-serif;
+												font-size:20px;
+												color: #397cd8;
+												font-stretch:condensed
+												}
+												
+												a#cartBtn {
+													color:#FFF;
+													width: 98px;
+													padding: 7px 10px 10px 15px ;
+													height: 34px;
+													background: url(images/cart-btn1.png) no-repeat;} 
+												
+												a#cartBtn:hover {
+													background: url(images/cart-btn2.png) no-repeat;}
+							
+							#overview {
+								padding-top: 15px;
+								padding-bottom: 15px;
+								font-family:Arial, Helvetica, sans-serif;
+								clear:both;
+								}
+								
+								h3 {
+									font-size: 20px;
+									font-stretch:condensed;
+									color: #2a2a2a;
+									}
+									
+									p{
+										font-size: 13px;
+										line-height: 25px;
+										color: #535353;}
+									
+	
+#footerWrapper {
+	height: 40px;
+	background-color:#d0cece;
+	overflow:hidden;
+	clear:both;
+}
+	
+				#footer {
+					width: 960px;
+					text-align:center;
+					margin: 0 auto;
+					}
+	
+
+
+
+
+

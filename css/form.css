@@ -1,0 +1,113 @@
+
+#mainContact {
+						margin: -16px auto;
+						width: 700px;
+						overflow:hidden;
+						}
+
+#contact {
+	width: 700px; 
+	margin: 0 auto; 
+	padding: 10px 30px;
+	background:url(../images/form-bodybg.png) repeat-y;
+	
+}
+
+#contact h3{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	font-stretch:condensed;
+	color: #2a2a2a;}
+	
+	#contact ul {width: 600px}
+
+
+label {
+	float: left; 
+	clear: left; 
+	margin: 11px 20px 0 0; 
+	width: 200px;
+	text-align: right; 
+	font-size: 12px; 
+	color: #2C2C2C;
+	font-family:Arial, Helvetica, sans-serif;
+	
+
+}
+
+input {
+	width: 260px;
+	height: 25px; 
+	padding: 5px 20px 0px 20px; 
+	margin: 0 0 30px 0;
+	background: #F2F2F2;
+	border-radius: 5px;
+
+}
+
+input[type=submit]:hover {
+	background:url(../images/cart-btn2.png)
+	}
+
+
+input[type=submit] {
+	color:#FFF;
+	border:none;
+	width: 98px; 
+	height: 34px; 
+	padding: 10px 15px; 
+	margin-left: 260px;
+	background:url(../images/cart-btn1.png)
+	
+}
+
+#contentCheckout {
+	padding: 30px 0;
+	font-family: Arial, Helvetica, sans-serif;}
+
+table {
+	
+	font-size:12px;
+	width: 800px;
+	margin: 0 auto;
+	padding-bottom: 20px;
+	text-align: center}
+	
+	table  img {
+	padding: 10px;
+	border: 1px solid #CDCCC7;
+	box-shadow: 0px 2px 3px rgba(0,0,0,.2);}
+	
+th {
+	border-bottom: solid 1px #DFDFDF;
+	margin: 5px 0;
+	padding: 5px 0}
+	
+td {
+	color: #666;
+	margin: 5px 0;
+	padding: 10px 0;
+	border-bottom: solid 1px #DFDFDF}
+	
+.itemRemove {
+}
+.checkout {
+overflow:hidden;}
+.checkout h2 {
+	font-family:Arial, Helvetica, sans-serif;
+	margin:  0 auto 40px 80px;
+	color:#666;
+	font-size:18px;
+	text-shadow: 0 1px 0 #EEE;
+	}
+	
+	#confirm {
+		float: right;
+		margin-right: 85px;
+		text-align: right;
+		padding-bottom: 30px;
+		margin-left: 80px;
+		font-style: italic;
+		}
+	#cartBtn.checkout {
+		}

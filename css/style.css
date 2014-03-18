@@ -1,0 +1,174 @@
+@charset "utf-8";
+/* CSS Document */
+
+html { 
+margin: 0;
+padding: 0}
+
+body {
+margin: 0;
+padding: 0}
+
+a {
+	text-decoration: none;
+	color:#036}
+	
+a:hover {
+	color:#39F}
+
+wrapper {
+	width: 1344px;
+	height: auto}
+	
+/*------------------------------------*/
+h2 {
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size: 17px;
+	font-style:inherit;
+	padding-left: 10px}
+	
+li {
+	margin-bottom: 15px;
+	font-size:14px}
+	
+#footer p {
+	margin: 10px auto;
+	color:#333}
+/*------------------------------------*/
+	
+#headerWrapper{
+	height: 697px;
+	background-image:url(../images/top-bg.png);
+	background-repeat:repeat-x;}
+	
+				#header{
+					width: 960px;
+					margin: 50px auto;
+					}
+					
+				#logo {
+					width:500px;
+					margin: auto;
+					position:fixed;
+					position:relative;
+					}
+					
+					p.logo {
+						font-size:17px;
+						font-style:italic;
+						letter-spacing:0.5px;
+						margin-left: -12px;
+						}
+			
+				
+				#cart {
+					float:right;
+					width:240px;
+					margin: 0 10px;
+					text-align:right}
+					
+				#banner {
+					float:left;
+					position: relative;
+					margin-top:25px;
+				}
+	
+#bodyWrapper {
+	background-color:#FFF;
+	overflow:hidden;
+}
+	
+				#body {
+					width: 960px;
+					margin: 30px auto;
+					float:none}
+					
+				#leftContent{
+					width: 700px;
+					float:left}
+					
+					#newBooks{
+						overflow:hidden;}
+						
+								ul.newBookCol {
+									width: 170px;
+									float: left;
+									padding-right: 25px;
+									margin-left: -15px;
+									border-right:1px dotted #CDCCC7}
+									
+									ul.newBookCol li {
+										list-style:none;
+										text-align: center;
+										margin-bottom: 20px;}
+									
+									ul.newBookCol img {
+										padding: 10px;
+										border: 1px solid #CDCCC7;}
+										
+									ul.newBookCol h3,a {
+										font-size: 15px;
+										text-decoration: none;}
+										
+										
+									.author {
+										font-style:italic}
+										
+									.priceLabel {
+										color:#36C;
+										font-weight:bold;
+										font-size: 14px;}
+						
+					#comingSoon {
+						overflow: hidden;
+						float:none;
+						margin-top: 40px;}
+				
+				#rightContent{
+					width: 260px;
+					float:left}
+					
+							#wrapperRecommend{
+								width: 262px;
+								float:none;
+								
+								padding: 0;
+								margin: 0
+								}
+								
+								#rec {background-image:url(../images/rec-body.png);
+								margin: -17px auto}
+								
+								
+								
+								a.recommend {
+									font-style:italic}
+								
+							#subjects {
+								margin-top: 60px;}
+							
+							#recentHistory {
+								margin-top: 60px;}
+								
+								#status {
+									padding-left: 10px;
+									font-style:italic}
+	
+#footerWrapper {
+	height: 40px;
+	background-color:#d0cece;
+	margin-top: 20px;
+	overflow:hidden;
+}
+	
+				#footer {
+					width: 960px;
+					text-align:center;
+					margin: 0 auto;
+					}
+	
+
+
+
+
+

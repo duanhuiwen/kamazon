@@ -1,0 +1,83 @@
+<!doctype html public "-//w3c//dtd xhtml 1.0 transitional//en" "http://www.w3.org/tr/xhtml1/dtd/xhtml1-transitional.dtd">
+<html xmlns="http://www.111cn.net/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=gb2312" />
+<title>Register</title>
+<script>
+
+
+var xmlhttp;
+function createXMLHttpRequest()
+{
+if (window.XMLHttpRequest)
+  {// code for IE7+, Firefox, Chrome, Opera, Safari
+  xmlhttp=new XMLHttpRequest();
+  }
+else
+  {// code for IE6, IE5
+  xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+  }
+}
+  
+  
+
+ function getMail(value){ 
+	createXMLHttpRequest();
+	xmlhttp.onreadystatechange = checkResponse1;
+	xmlhttp.open('get','register_check.php?email='+value,true);
+	xmlhttp.send();
+
+ }
+ 
+ function getPassword(value){
+	createXMLHttpRequest();
+	xmlhttp.onreadystatechange = checkResponse2;
+	xmlhttp.open('get','register_check.php?password='+value,true);
+	xmlhttp.send();
+ }
+
+ 
+ function checkPassword(){
+ if(document.getElementById('pwd').value == document.getElementById('pwd2').value){ 
+ document.getElementById('password2').innerHTML = "";}
+ else{document.getElementById('password2').innerHTML = "not match";}
+	
+ }
+ 
+function checkResponse1(){
+
+	if(xmlhttp.readyState==4 && xmlhttp.status==200){	
+		document.getElementById('checkid').innerHTML = xmlhttp.responseText;
+		
+	} else{
+		document.getElementById('checkid').innerHTML = "Checking...";
+	}
+ }
+ 
+ function checkResponse2(){
+
+	if(xmlhttp.readyState==4 && xmlhttp.status==200){	
+		document.getElementById('password').innerHTML = xmlhttp.responseText;
+		
+	} else{
+		document.getElementById('password').innerHTML = "Checking...";
+	}
+ }
+ 
+ 
+
+
+
+</script>
+
+</head>
+<body>
+
+First name:<input size="40" onblur="getMail(this.value);"><span id="fname"></span><br>
+Last name:<input size="40" onblur="getMail(this.value);"><span id="lname"></span><br>
+Email:<input size="40" onblur="getMail(this.value);"><span id="checkid"></span><br>
+Password:<input id = "pwd" size="40" onblur="getPassword(this.value);"><span id="password">(At least 8 character)</span><br>
+Re-type the password:<input id ="pwd2" size="40" onblur="checkPassword();"><span id="password2"></span><br>
+<input type="submit" value="submit"/>
+</body>
+</html>

@@ -1,0 +1,17 @@
+register.html
+register_check.php
+
+
+1.Email checking:check if the user email already exist in the database
+getMail()
+checkResponse1()
+html input field id=email
+
+2.password checking
+getPassword()
+checkResponse2()
+html input field id=pwd
+
+3.re-typed password checking
+checkPassword()
+html input field id=pwd2
